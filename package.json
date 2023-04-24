@@ -1,6 +1,6 @@
 {
 	"name": "@smartholdem/benchmarker",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "A wrapper around Benchmark.js that provides sane defaults and formatting",
 	"license": "MIT",
 	"repository": "https://github.com/smartholdem/benchmarker",
@@ -23,6 +23,7 @@
 	},
 	"devDependencies": {
 		"@smartholdem/tease": "^2.0.1",
-		"@types/benchmark": "^2.1.1"
+		"@types/benchmark": "^2.1.1",
+		"lint-staged": "^13.2.1"
 	}
 }
