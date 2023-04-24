@@ -1,0 +1,4 @@
+{
+	"extends": "./node_modules/@smartholdem/tease/config/tsconfig.json",
+	"include": ["src/**/*"]
+}
