@@ -1,0 +1,28 @@
+{
+	"name": "@smartholdem/benchmarker",
+	"version": "1.0.0",
+	"description": "A wrapper around Benchmark.js that provides sane defaults and formatting",
+	"license": "MIT",
+	"repository": "https://github.com/smartholdem/benchmarker",
+	"author": "TechnoL0g <info@smartholdem.io>",
+	"main": "dist/index.js",
+	"scripts": {
+		"build": "tease build",
+		"format": "tease format",
+		"lint": "tease lint",
+		"prepare": "tease install && tease build",
+		"publish": "npm run prepare && npm publish --access=public",
+		"specs": "tease specs",
+		"test": "tease test"
+	},
+	"files": [
+		"dist"
+	],
+	"dependencies": {
+		"benchmark": "^2.1.4"
+	},
+	"devDependencies": {
+		"@smartholdem/tease": "^2.0.1",
+		"@types/benchmark": "^2.1.1"
+	}
+}
