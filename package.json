@@ -11,7 +11,6 @@
 		"format": "tease format",
 		"lint": "tease lint",
 		"prepare": "tease install && tease build",
-		"publish": "npm run prepare && npm publish --access=public",
 		"specs": "tease specs",
 		"test": "tease test"
 	},
@@ -22,7 +21,7 @@
 		"benchmark": "^2.1.4"
 	},
 	"devDependencies": {
-		"@smartholdem/tease": "^2.0.1",
+		"@smartholdem/tease": "^2.0.2",
 		"@types/benchmark": "^2.1.1",
 		"lint-staged": "^13.2.1"
 	}
